@@ -2,7 +2,8 @@
 <html lang="ru">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="style.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link id="pagestyle" rel="stylesheet" href="style.css">
 		<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic" rel="stylesheet">
     <title>Портфолио Junior верстальщика</title>
   </head>
@@ -10,6 +11,8 @@
   <body>
     <header class="page-header">
 			<div class="container">
+				<button id="stylesheet1" type="button" class="btn btn-light"> Светлая тема </button>
+				<button id="stylesheet2" type="button" class="btn btn-dark"> Тёмная тема </button>
 				<a class="header-email" href="mailto:andrew0071997@yandex.ru">andrew0071997@yandex.ru</a>
 				<a class="header-phone" href="tel:+79055308343">+79055308343</a>
 			</div>
@@ -24,12 +27,33 @@
     <section class="intro">
 			<div class="container">
 				<h2 class="subheading">Давайте познакомимся</h2>
-				<h3>Пара слов о себе</h3>
-				<p>Привет. Меня зовут Андрей.
-			Мне 25 лет. 
-		  Я использую HTML5 и CSS3.</p>
-				<h3>Чем могу быть полезен</h3>
-				<p>Проектирую динамические веб-приложения на Python/Django.</p>
+				<div>		
+					<h3>Пара слов о себе</h3>
+					<p>Привет. Меня зовут Андрей.
+				Мне 24 года. 
+				Я использую HTML5 и CSS3.</p>
+				</div>
+				<div>
+					<h3>Чем могу быть полезен</h3>
+					<p>Проектирую динамические веб-приложения на Python/Django.</p>
+				</div>
+			</div>
+			<div class="container skills">
+				<h3>Мои навыки</h3>
+				<table class="center" class="skills-list">
+					<tr>
+						<td><img src="img/icons8-html.svg"></td>
+						<td><img src="img/icons8-css.svg"></td>
+						<td><img src="img/icons8-js.svg"></td>
+						<td><img src="img/icons8-py.svg"></td>
+				  </tr>
+					<tr>
+						<td>HTML</td>
+						<td>CSS</td>
+						<td>JavaScript</td>
+						<td>Python</td>
+				  </tr>
+				</table>
 			</div>
 		</section>
 
@@ -61,5 +85,7 @@
 				<a class="header-phone" href="tel:+79055308343">+79055308343</a>
 			</div>
     </footer>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+		<script src="script.js"></script>
   </body>
 </html>
