@@ -194,16 +194,15 @@ td {
   background-image: url("img/icon-phone-footer.svg");
 }
 
-/*
-.align-items-center {
-  -ms-flex-align: center!important;
-  align-items: center!important;
-  display: flex;
-  justify-content: center;
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  border: solid #6a6a6a;
 }
-*/
-
-#menu {
-  display:flex;
-  justify-content: center;
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #6a6a6a;
+  margin: 2px 0;
 }

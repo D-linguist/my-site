@@ -25,7 +25,7 @@ body {
 .page-header .container,
 .page-footer .container {
   max-width: 1408px;
-  text-align: right;
+  text-align: center;
 }
 
 .page-header a {
@@ -187,4 +187,25 @@ td {
 .footer-phone {
   padding-left: 25px;
   background-image: url("img/icon-phone.svg");
+}
+
+.navbar-toggler {
+  width: 47px;
+  height: 34px;
+  border: 5px solid #fea18d;
+}
+.navbar-toggler .line {
+  width: 100%;
+  float: left;
+  height: 2px;
+  background-color: #fea18d;
+  margin: 2px 0;
+}
+
+.btn-light {
+  background-color: #f1f1f1;
+}
+
+.btn-dark {
+  background-color: #444444;
 }
