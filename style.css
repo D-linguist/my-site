@@ -46,8 +46,9 @@ body {
 }
 
 .hero-image {
-  margin-left: 100px;
+  margin-left: 7vw;
   margin-bottom: 620px;
+  width: 80vw;
 }
 
 .hero-image .container {
