@@ -1,12 +1,10 @@
 body {
   margin: auto;
-  min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
   line-height: 32px;
   color: #222222;
   background-color: #f2f4f6;
-  background-image: url("img/hero-bg.jpg");
   background-repeat: no-repeat;
   background-position: top center;
 }
@@ -212,18 +210,20 @@ td {
   margin: 2px 0;
 }
 
-@media screen and (max-width: 480px) {
-  html, body {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
+@media (max-width: 480px) {
+  body {
+    background-image: url(img/hero-bg-mobile.jpg);
   }
 }
 
-@media screen and (max-width: 900px) and (min-width: 481px) {
-  html, body {
-    width: 100%;
-    height: 100%;
-    overflow-x: hidden;
+@media (min-width: 481px) and (max-width: 1024px) {
+  body {
+    background-image: url(img/hero-bg-tablet.jpg);
+  }
+}
+
+@media (min-width: 1025px) {
+  body {
+    background-image: url(img/hero-bg.jpg);
   }
 }
