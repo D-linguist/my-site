@@ -1,5 +1,5 @@
 body {
-  margin-left: 0;
+  margin: auto;
   min-width: 960px;
   font-family: "Montserrat", "Helvetica", "Arial", sans-serif;
   font-size: 16px;
@@ -25,6 +25,7 @@ body {
 .page-header .container,
 .page-footer .container {
   max-width: 1408px;
+  width: 100vw;
   text-align: right;
 }
 
@@ -47,7 +48,7 @@ body {
 
 .hero-image {
   margin-left: 7vw;
-  margin-bottom: 620px;
+  margin-bottom: 480px;
   width: 80vw;
 }
 
@@ -59,25 +60,27 @@ body {
 .heading {
   margin: 0 0 16px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 88px;
-  line-height: 96px;
-  font-weight: 400;
+  font-size:calc(34px + 4vw);
+  line-height: 1.2;
+  font-weight: 550;
 }
 
 .hero-image p {
   margin: 0;
-  font-size: 32px;
-  line-height: 48px;
+  font-size: calc(12px + 1.6vw);
+  line-height: 1.5;
 }
 
 .intro {
   margin: 0 0 120px;
+  width: 90vw;
+  text-align: justify;
 }
 
 .subheading {
   margin: 0 0 56px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size: 64px;
+  font-size: calc(24px + 3vw);
   line-height: 80px;
   font-weight: 400;
   text-align: center;
@@ -106,7 +109,7 @@ body {
 }
 
 table .skills-list {
-  padding-left: 32px;
+  margin: auto;
 }
 
 td {
@@ -138,6 +141,7 @@ td {
 
 .portfolio {
   margin: 0 0 120px;
+  width: 90vw;
 }
 
 .projects {
@@ -171,6 +175,7 @@ td {
 }
 
 .page-footer {
+  width: 100vw;
   padding: 40px 0;
   background-color: #00417d;
   color: #ffffff;
