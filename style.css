@@ -188,12 +188,12 @@ td {
 }
 
 .footer-email {
-  padding-left: 30px;
+  padding: 30px;
   background-image: url("img/icon-email-footer.svg");
 }
 
 .footer-phone {
-  padding-left: 25px;
+  padding: 25px;
   background-image: url("img/icon-phone-footer.svg");
 }
 
