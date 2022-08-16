@@ -11,7 +11,7 @@ body {
 
 .container {
   max-width: 928px;
-  margin: 0 auto;
+  /* margin: 0 auto; */
   padding: 0 16px;
 }
 
@@ -106,9 +106,9 @@ body {
   padding: 0;
 }
 
-table .skills-list {
+/* table .skills-list {
   margin: auto;
-}
+} */
 
 td {
   text-align:center;
