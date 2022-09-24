@@ -58,7 +58,7 @@ body {
 .heading {
   margin: 0 0 16px;
   font-family: "Old Standard TT", "Times", "Times New Roman", serif;
-  font-size:calc(34px + 4vw);
+  font-size: calc(34px + 4vw);
   line-height: 1.2;
   font-weight: 550;
 }
@@ -111,7 +111,7 @@ body {
 } */
 
 td {
-  text-align:center;
+  text-align: center;
   padding: 0 15px;
 }
 
@@ -208,6 +208,26 @@ td {
   height: 2px;
   background-color: #6a6a6a;
   margin: 2px 0;
+}
+
+#myBtn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgba(78, 126, 167, 0.49);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px;
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
 }
 
 @media (max-width: 480px) {

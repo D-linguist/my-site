@@ -11,14 +11,16 @@
 	<link
 		href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Old+Standard+TT&display=swap&subset=cyrillic"
 		rel="stylesheet">
-	<title>Портфолио Junior разработчика</title>
+	<title>Портфолио Python разработчика</title>
 </head>
 
 <body>
-	<script src="script.js"></script>
+	<!-- <script src="script.js"></script> -->
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous">
 	</script>
+
+	<button onclick="topFunction()" id="myBtn" title="В начало">Вверх</button> 
 
 	<header class="page-header">
 		<nav class="navbar navbar-expand-md navbar-light">
@@ -56,26 +58,36 @@
 
 	<section class="hero-image">
 		<h1 class="heading m-auto">Андрей Дмитренко</h1>
-		<p>Junior разработчик</p>
+		<p>Python Django разработчик</p>
 	</section>
 
 	<section id="intro" class="intro m-auto">
 		<div class="container">
 			<h3>О себе</h3>
-			<p>В настоящее время я разрабатываю web-приложения на языке <b>Python</b> с использованием фреймворков
+			<p>Разрабатываю API web-приложений на <b>Python</b> с использованием фреймворков
 				<b>Django/django-rest-framework</b> и базы данных <b>PostgreSQL</b>.
-				Имею несколько учебых проектов на них же. Пользуюсь <b>git</b> на уровне коммитов и push.
+				В основном занимаюсь разработкой серверной части приложений, но и имею опыт в отрисовке HTML-шаблонов Django.
 				Имею опыт работы с <b>Docker</b>, базовые представления <b>HTML</b>/<b>СSS</b> и некоторые учебные проекты на
-				HTML.
-				Работал в linux.</p>
-			<p>Прошёл несколько курсов по Python в учебном центре при МГТУ им. Баумана "Специалист" (сертификаты прикреплены к
-				резюме), курсы по основам вёрстки htmlacademy.
-				Изучал SQL по курсу на платформе Stepik.
-				Сейчас продолжаю прокачивать свои навыки использования фреймворка Django, также изучаю HTML, CSS и JavaScript;
-				прохожу некоторые курсы по Python на платформах Coursera и Udemy.</p>
+				HTML.</p>
+				Продолжаю прокачивать свои навыки использования Python и фреймворка Django, также изучаю HTML, CSS и JavaScript.</p>
 			<p>Заинтересован в овладении JavaScript и других инструментов frontend-разработки.</p>
 			<p>Образование: высшее неоконченное, 4.5 курса, химический факультет МГУ.</p>
 			<p>Английский язык: intermediate &ndash; upper-intermediate.</p>
+		</div>
+		<div class="container">
+			<h4>Мой стек технологий</h4>
+			<ul>
+				<li>Python</li>
+				<li>Django</li>
+				<li>django-rest-framework</li>
+				<li>PostgreSQL</li>
+				<li>Redis + Celery + django-celery-beat</li>
+				<li>Docker/docker-compose, dokku</li>
+				<li>WebSockets + Channels</li>
+				<li>HTML, CSS, Bootstrap</li>
+				<li>linux</li>
+				<li>git</li>
+			</ul>
 			<hr>
 		</div>
 	</section>
@@ -87,20 +99,20 @@
 				<div class="table-responsive mt-4">
 					<table class="center skills-list table table-borderless">
 						<tr>
-							<td><img src="img/icons8-html.svg" alt="html logo"></td>
-							<td><img src="img/icons8-css.svg" alt="css logo"></td>
-							<td><img src="img/icons8-js.svg" alt="js logo"></td>
 							<td><img src="img/icons8-py.svg" alt="python logo"></td>
 							<td><img src="img/icons8-django.svg" alt="django logo"></td>
 							<td><img src="img/icons8-psql.svg" alt="postgres logo"></td>
+							<td><img src="img/icons8-html.svg" alt="html logo"></td>
+							<td><img src="img/icons8-css.svg" alt="css logo"></td>
+							<td><img src="img/icons8-js.svg" alt="js logo"></td>
 						</tr>
-						<tr>
-							<td>HTML</td>
-							<td>CSS</td>
-							<td>JavaScript</td>
+						<tr>							
 							<td>Python</td>
 							<td>Django</td>
 							<td>PostgreSQL</td>
+							<td>HTML</td>
+							<td>CSS</td>
+							<td>JavaScript</td>
 						</tr>
 					</table>
 				</div>
@@ -235,16 +247,19 @@
 
 	<!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
 		integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous">
-	</script>
+	</script> -->
+  
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
 		integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
 	</script>
+	<!--
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
 		integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
 	</script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
 		integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
 	</script> -->
+	<script src="script.js"></script>
 </body>
 
 </html>
