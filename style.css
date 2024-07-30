@@ -230,6 +230,10 @@ td {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
+div#intro {
+  height: 100%;
+}
+
 @media (max-width: 480px) {
   body {
     background-image: url(img/hero-bg-mobile.jpg);
